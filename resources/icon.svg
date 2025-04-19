@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" rx="128" fill="#1A1A1A"/>
+  
+  <!-- Stylized R -->
+  <path d="M160 128H280C320 128 352 160 352 200C352 240 320 272 280 272H200L352 384H280L160 272V384H128V128H160Z" fill="#FFFFFF"/>
+  <path d="M200 240H280C300 240 312 228 312 208C312 188 300 176 280 176H200V240Z" fill="#1A1A1A"/>
+</svg> 

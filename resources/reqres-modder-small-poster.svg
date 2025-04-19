@@ -1,0 +1,68 @@
+<svg viewBox="0 0 1280 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with dev tool theme -->
+  <rect width="1280" height="800" fill="#1e1e1e"/>
+  
+  <!-- Header section background -->
+  <rect x="0" y="0" width="1280" height="100" fill="#252526"/>
+  
+  <!-- Main Content Section -->
+  <g>
+    <!-- Left Panel - Tool Icon -->
+    <g transform="translate(150, 300)">
+      <!-- Tool Icon - Stylized R with arrow -->
+      <circle cx="150" cy="150" r="130" fill="#2d2d30" stroke="#007acc" stroke-width="6"/>
+      <path d="M110,100 L190,100 C210,100 225,115 225,135 C225,155 210,170 190,170 L160,170 L190,200 M110,100 L110,200 M145,170 L90,170" 
+            stroke="#007acc" stroke-width="12" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      
+      <!-- Arrows representing request/response -->
+      <path d="M200,120 L230,120 L215,100 L230,120 L215,140" stroke="#76b900" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M200,180 L70,180 L85,160 L70,180 L85,200" stroke="#ff6b6b" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    
+    <!-- Right Panel - Text Content -->
+    <g transform="translate(500, 250)">
+      <!-- Title -->
+      <text x="0" y="0" font-family="'Segoe UI', Arial, sans-serif" font-size="72" font-weight="bold" fill="#ffffff">ReqRes Modder</text>
+      
+      <!-- Tagline -->
+      <text x="0" y="60" font-family="'Segoe UI', Arial, sans-serif" font-size="32" fill="#cccccc">Modify HTTP Requests &amp; Responses</text>
+      
+      <!-- Feature bullets -->
+      <g transform="translate(0, 120)">
+        <!-- Feature 1 -->
+        <circle cx="-15" cy="0" r="8" fill="#007acc"/>
+        <text x="0" y="8" font-family="'Segoe UI', Arial, sans-serif" font-size="24" fill="#ffffff">Intercept network traffic</text>
+        
+        <!-- Feature 2 -->
+        <circle cx="-15" cy="40" r="8" fill="#007acc"/>
+        <text x="0" y="48" font-family="'Segoe UI', Arial, sans-serif" font-size="24" fill="#ffffff">Edit requests before they&apos;re sent</text>
+        
+        <!-- Feature 3 -->
+        <circle cx="-15" cy="80" r="8" fill="#007acc"/>
+        <text x="0" y="88" font-family="'Segoe UI', Arial, sans-serif" font-size="24" fill="#ffffff">Modify responses before rendering</text>
+        
+        <!-- Feature 4 -->
+        <circle cx="-15" cy="120" r="8" fill="#007acc"/>
+        <text x="0" y="128" font-family="'Segoe UI', Arial, sans-serif" font-size="24" fill="#ffffff">Developer-friendly interface</text>
+      </g>
+    </g>
+  </g>
+  
+  <!-- Code pattern in background -->
+  <g opacity="0.1">
+    <text x="50" y="580" font-family="monospace" font-size="14" fill="#ffffff">fetch(&apos;/api/data&apos;)</text>
+    <text x="50" y="600" font-family="monospace" font-size="14" fill="#ffffff">.then(response =&gt; response.json())</text>
+    <text x="50" y="620" font-family="monospace" font-size="14" fill="#ffffff">.then(data =&gt; console.log(data));</text>
+    
+    <text x="850" y="480" font-family="monospace" font-size="14" fill="#ffffff">{&quot;status&quot;: 200, &quot;body&quot;: {</text>
+    <text x="850" y="500" font-family="monospace" font-size="14" fill="#ffffff">  &quot;message&quot;: &quot;Success&quot;,</text>
+    <text x="850" y="520" font-family="monospace" font-size="14" fill="#ffffff">  &quot;data&quot;: [...]</text>
+    <text x="850" y="540" font-family="monospace" font-size="14" fill="#ffffff">}}</text>
+  </g>
+  
+  <!-- Footer with Chrome Store badge -->
+  <g transform="translate(540, 700)">
+    <rect x="0" y="0" width="200" height="60" rx="8" ry="8" fill="#4285f4"/>
+    <text x="100" y="38" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="bold" fill="white" text-anchor="middle">Available on Chrome Store</text>
+  </g>
+</svg>
