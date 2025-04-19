@@ -1,4 +1,8 @@
-# ReqRes Modder
+
+
+![](https://raw.githubusercontent.com/deenrookie/chrome-reqres-modder/refs/heads/main/resources/reqres-modder-banner.svg)
+
+
 
 **ReqRes Modder** is a powerful Chrome extension for intercepting and modifying HTTP **Requests** and **Responses**. It supports rule-based manipulation of request URLs, headers, bodies, and response contents — perfect for debugging, testing, or simulating backend behavior.
 
@@ -15,7 +19,7 @@
 
 You can install from Chrome Extension Shop: https://chromewebstore.google.com/detail/reqres-modder/chldhioickekglgaojooebkhfjjikeih
 
-or if you want to write complex logic, can install from GitHub
+or if you want to write complex logic, can install from GitHub source
 
 1. Clone or download this repository:
    ```bash
@@ -37,7 +41,7 @@ Edit the interceptReq.js directly.
 
 Modifying XMLHttpRequest and fetch code depends on frontend javascript.
 
-Here is a example to change the response 
+Here is an example to change the response body.
 
 
 ```javascript
