@@ -164,7 +164,7 @@
                 })), d.forEach((e => {
                     var t, s;
                     const o = null === (s = null === (t = e.actions.modify_request.body) || void 0 === t ? void 0 : t.replace) || void 0 === s ? void 0 : s.new;
-                    void 0 !== o && (n[0] = o)
+                    void 0 !== o && "" !== o && (n[0] = o)
                 })), r.length >= 3 && !r[2]) return void 0 !== this.headerArgs && Object.entries(this.headerArgs).forEach((([e, t]) => {
                     o.call(this, e, t)
                 })), s.apply(this, n);
