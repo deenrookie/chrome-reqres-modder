@@ -26,7 +26,7 @@ function initContentScripts() {
       js: ["interceptReq.js"],
       excludeMatches: ["https://chrome.google.com/webstore/*"],
       runAt: "document_start",
-      persistAcrossSessions: false,
+      persistAcrossSessions: true,
       world: "MAIN",
       allFrames: true
     }
@@ -44,7 +44,7 @@ function registerRules() {
       excludeMatches: ["https://chrome.google.com/webstore/*"],
       js: ["rulesInit.js"],
       runAt: "document_start",
-      persistAcrossSessions: false,
+      persistAcrossSessions: true,
       allFrames: true
     }
   ]).then(() => {
